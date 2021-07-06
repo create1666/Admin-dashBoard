@@ -1,0 +1,5 @@
+.sideBar {
+  height: calc(100vh-50px);
+  width: 50%;
+  background-color: #011026;
+}
