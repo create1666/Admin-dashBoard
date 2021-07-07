@@ -1,4 +1,5 @@
 import React from "react";
+import './NavBar.css'
 import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 
 const NavBar = () => {
