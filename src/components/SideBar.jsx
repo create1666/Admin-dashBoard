@@ -53,15 +53,15 @@ const SideBar = () => {
             <ul className="sideBar__lists">
               <li className="sideBar__listItems">
                 <LineStyle className='sideBar__ListIcon'/>
-                Home{" "}
+                Mail{" "}
               </li>
               <li className="sideBar__listItems">
                 <Timeline className='sideBar__ListIcon'/>
-                Analytics
+                Feedback
               </li>
               <li className="sideBar__listItems">
                 <TrendingUp className='sideBar__ListIcon'/>
-                Sales
+                Messages
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ const SideBar = () => {
             <ul className="sideBar__lists">
               <li className="sideBar__listItems">
                 <LineStyle className='sideBar__ListIcon'/>
-                Home{" "}
+                Manage{" "}
               </li>
               <li className="sideBar__listItems">
                 <Timeline className='sideBar__ListIcon'/>
@@ -79,7 +79,7 @@ const SideBar = () => {
               </li>
               <li className="sideBar__listItems">
                 <TrendingUp className='sideBar__ListIcon'/>
-                Sales
+                Reports
               </li>
             </ul>
           </div>

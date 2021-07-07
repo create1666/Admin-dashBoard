@@ -1,13 +1,13 @@
 .sideBar {
   
   flex: 1;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 50px  );
   background-color: #05142c;
   position: sticky;
   top: 50px;
   width: 250px;
   box-shadow: 1px 1px 2.2px 1.2px rgba(221, 218, 218, 0.75);
-
+  overflow: hidden;
 }
 
 .sideBar__body {
