@@ -1,3 +1,6 @@
 .home {
   flex: 4;
 }
+.widgets__container {
+  display: flex;
+}
