@@ -4,3 +4,60 @@
   padding: 20px;
   margin: 20px;
 }
+
+.widgetLgTable {
+  border-spacing: 20px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.widgetLgTh{
+ text-align: left;
+ font-weight: 700;
+}
+
+.widgetLgTdUser{
+  display: flex;
+  align-items: center;
+  
+}
+
+.widgetLgImg {
+  margin-right: 10px;
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
+.widgetLgStatus {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.widgetLgUsername {
+  font-weight: 600;
+}
+.widgetLgStatus.Approved {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+
+.widgetLgStatus.Pending {
+  background-color: #e5e8fa;
+  color: #4251a2;
+}
+
+.widgetLgStatus.Declined {
+  background-color: #fae5f0;
+  color: #b1487f;
+}
+
+.widgetLgTd{
+  font-weight: 300;
+}
