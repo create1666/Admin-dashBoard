@@ -1,43 +1,75 @@
-import React from 'react'
-import './UserList.css'
-import { DataGrid } from '@material-ui/data-grid'
-
+import React from "react";
+import "./UserList.css";
+import { DataGrid } from "@material-ui/data-grid";
+import { DeleteOutline } from "@material-ui/icons";
+import { UserRows } from "../../data";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function UserList() {
+
+  
+
+  const [data, setState] = useState(UserRows)
+  const handleDelete = (id) => {
+    setState(data.filter((item) => {
+     return item.id !==id
+    }))
+ }
+  
   const columns = [
-    { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'firstName', headerName: 'First name', width: 130 },
-    { field: 'lastName', headerName: 'Last name', width: 130 },
+    { field: "id", headerName: "ID", width: 100 },
+    { field: "userName", headerName: "Users", width: 120 },
+    { field: "avatar", headerName: "Avatar", width: 160, renderCell: (params)=> {
+      return (
+        <>
+        <div className='userLisstuserImg'>
+          <img className='userListImg' src={params.row.avatar} alt=''/>
+          {params.row.avatar}
+        </div>
+        </>
+      )
+    } },
     {
-      field: 'age',
-      headerName: 'Age',
-      type: 'number',
-      width: 90,
+      field: "email",
+      headerName: "Email",
+      width: 120,
     },
     {
-      field: 'fullName',
-      headerName: 'Full name',
-      description: 'This column has a value getter and is not sortable.',
+      field: "status",
+      headerName: "Status",
+     
+      sortable: false,
+      width: 100,
+    },
+    {
+      field: "transaction",
+      headerName: "Transaction",
+      sortable: false,
+      width: 130,
+    },
+    {
+      field: "actions",
+      headerName: "Action",
       sortable: false,
       width: 160,
-    
+      renderCell: (params) => {
+        return (
+          <><div className='userActions'>
+            
+           <Link to={'/users/'+ params.row.id}> <button className='userEditBTn'>Edit</button></Link>
+
+            <DeleteOutline checkboxSelection className='userDelBtn' onClick = {()=>handleDelete(params.row.id)}/>
+            </div></>
+        )
+      }
     },
   ];
-  
-  const rows = [
-    { id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
-    { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 42 },
-    { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
-    { id: 4, lastName: 'Stark', firstName: 'Arya', age: 16 },
-    { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', age: null },
-    { id: 6, lastName: 'Melisandre', firstName: null, age: 150 },
-    { id: 7, lastName: 'Clifford', firstName: 'Ferrara', age: 44 },
-    { id: 8, lastName: 'Frances', firstName: 'Rossini', age: 36 },
-    { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
-  ];
+
+ 
   return (
     <div className='users'>
-       <DataGrid rows={rows} columns={columns} pageSize={5} checkboxSelection />
+      <DataGrid rows={data} columns={columns} pageSize={8} disableSelectionOnClick checkboxSelection />
     </div>
-  )
+  );
 }

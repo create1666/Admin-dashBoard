@@ -1,3 +1,34 @@
 .users {
   flex: 4;
 }
+
+.userListImg {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 100%;margin-right: 10px;
+}
+
+
+.userLisstuserImg{
+  display: flex;
+  align-items: center;
+}
+.userActions {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.userEditBTn {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 12px;
+  background-color: #3b49df;
+  color: #f9fafa;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.userDelBtn {
+  color: rgb(252, 45, 107);
+}
