@@ -11,9 +11,9 @@ export default function UserList() {
   
 
   const [data, setState] = useState(UserRows)
-  const handleDelete = (id) => {
+  const handleDelete = (i) => {
     setState(data.filter((item) => {
-     return item.id !==id
+     return item.id !==i
     }))
  }
   
@@ -57,7 +57,7 @@ export default function UserList() {
         return (
           <><div className='userActions'>
             
-           <Link to={'/users/'+ params.row.id}> <button className='userEditBTn'>Edit</button></Link>
+           <Link to={'/user/'+ params.row.id}> <button className='userEditBTn'>Edit</button></Link>
 
             <DeleteOutline checkboxSelection className='userDelBtn' onClick = {()=>handleDelete(params.row.id)}/>
             </div></>

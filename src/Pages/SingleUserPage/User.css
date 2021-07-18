@@ -1,0 +1,44 @@
+.userSection{
+  flex: 4;
+  padding: 20px;
+}
+
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userTitle {
+ margin-left: 5px;
+}
+
+.userCreateButtn {
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a244e;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.userContainer{
+  display: flex;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.userShow {
+  box-shadow: 0px 0px 15px -10px rgb(0, 0, 0, 0.75);
+  padding: 20px;
+  margin-left: 5px;
+  flex: 2;
+}
+
+.userUpdate {
+box-shadow: 0px 0px 15px -10px rgb(0, 0, 0, 0.75);
+padding: 20px;
+flex: 4;
+}
