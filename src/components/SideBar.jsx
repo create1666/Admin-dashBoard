@@ -2,6 +2,7 @@ import { LineStyle, Money, Report, Timeline, TrendingUp } from "@material-ui/ico
 import React from "react";
 import "./SideBar.css";
 import "../../src/App.css";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
   return (
@@ -11,10 +12,12 @@ const SideBar = () => {
           <div className="sideBar__bodyMenu">
             <h4 className="sideBar__MenuTitle">Dashboard</h4>
             <ul className="sideBar__lists ">
-              <li className="sideBar__listItems active">
+            <Link to='/'>
+            <li className="sideBar__listItems active">
                 <LineStyle className='sideBar__ListIcon'/>
                 Home{" "}
               </li>
+            </Link>
 
               <li className="sideBar__listItems">
                 <Timeline className='sideBar__ListIcon'/>
@@ -29,14 +32,18 @@ const SideBar = () => {
           <div className="sideBar__bodyMenu">
             <h4 className="sideBar__MenuTitle"> Quick Menu</h4>
             <ul className="sideBar__lists">
-              <li className="sideBar__listItems">
+             <Link to='/users'>
+             <li className="sideBar__listItems">
                 <LineStyle className='sideBar__ListIcon'/>
                 Users{" "}
               </li>
-              <li className="sideBar__listItems">
+             </Link>
+             <Link to='/products'>
+             <li className="sideBar__listItems">
                 <Timeline className='sideBar__ListIcon'/>
                 Products
               </li>
+             </Link>
               <li className="sideBar__listItems">
                 <Money className='sideBar__ListIcon'/>
                 Transactions
