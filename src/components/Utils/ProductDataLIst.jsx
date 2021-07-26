@@ -1,267 +1,184 @@
 import { v4 as vId } from "uuid";
 
-
-export  const Userdata = [
+export const ProductListRow = [
   {
-    name: "Jan",
-    "Active-user": 400,
-
-    amt: 2400,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
   {
-    name: "Feb",
-    "Active-user": 3000,
-
-    amt: 2210,
+    id: vId(),
+    name: "bull skit",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
   {
-    name: "Mar",
-    "Active-user": 200,
-
-    amt: 2290,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
   {
-    name: "Apr",
-    "Active-user": 2780,
-
-    amt: 2000,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
   {
-    name: "May",
-    "Active-user": 180,
-
-    amt: 2181,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
   {
-    name: "Jun",
-    "Active-user": 2390,
-
-    amt: 2500,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
   {
-    name: "Jul",
-    "Active-user": 3490,
-
-    amt: 2100,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
-
   {
-    name: "Agu",
-    "Active-user": 3490,
-
-    amt: 2100,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
-
   {
-    name: "Sep",
-    "Active-user": 6090,
-
-    amt: 2100,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
-
   {
-    name: "Oct",
-    "Active-user": 3490,
-
-    amt: 2100,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
-
   {
-    name: "Nov",
-    "Active-user": 3490,
-
-    amt: 2100,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
-
   {
-    name: "Dec",
-    "Active-user": 7490,
-
-    amt: 2100,
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
+  },
+  {
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
+  },
+  {
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
+  },
+  {
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
+  },
+  {
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
+  },
+  {
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
+  },
+  {
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
+  },
+  {
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
+  },
+  {
+    id: vId(),
+    name: "Mac M1",
+    img:
+      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
+    stock: "456",
+    status: "active",
+   price: "$200.00",
   },
 ];
-
- export const UserRows = [
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bull skit",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-  {
-    id: vId(),
-    userName: "bolu john",
-    avatar:
-      "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?cs=srgb&dl=pexels-shan-patel-2876486.jpg&fm=jpg",
-    email: "bj@gmail.com",
-    status: "active",
-    transaction: "$200.00",
-  },
-];
-
-

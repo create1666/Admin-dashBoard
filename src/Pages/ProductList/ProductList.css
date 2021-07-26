@@ -1,0 +1,35 @@
+.ProductList{
+  flex: 4;
+}
+
+
+.productuserListImg {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 100%;margin-right: 10px;
+}
+
+
+.productuserLisstuserImg{
+  display: flex;
+  align-items: center;
+}
+.ProductListuserActions {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.productuserEditBTn {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 12px;
+  background-color: #3b49df;
+  color: #f9fafa;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productuserDelBtn {
+  color: rgb(252, 45, 107);
+}
