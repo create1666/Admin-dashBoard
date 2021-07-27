@@ -58,7 +58,7 @@ const ProductList = () => {
           return (
             <><div className='ProductListuserActions'>
               
-             <Link to={'/product/'+ params.row.id}> <button className='prodctuserEditBTn'>Edit</button></Link>
+             <Link to={'/product/'+ params.row.id}> <button className='productuserEditBTn'>Edit</button></Link>
   
               <DeleteOutline checkboxSelection className='productuserDelBtn' onClick = {()=>handleDelete(params.row.id)}/>
               </div></>

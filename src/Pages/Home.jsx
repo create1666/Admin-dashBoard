@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className='home'>
       <FeaturedCompnt/>
-      <Chart data={Userdata} dataKey='Active-user' title="User Analysis" grid />
+      <Chart data={Userdata} dataKey='Active-user' title="User Analysis" gri />
       <div className="widgets__container">
       <WidgetSm/>
       <WidgetLg/>

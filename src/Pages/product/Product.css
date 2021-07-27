@@ -1,0 +1,18 @@
+.product {
+  flex: 4;
+  padding: 20px;
+}
+.producTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productAddBtn {
+  width: 80px;
+  padding: 5px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
