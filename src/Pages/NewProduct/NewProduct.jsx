@@ -8,7 +8,7 @@ export const NewProduct = () => {
       <form  className="newUserForm">
         <div className="newUserItem">
           <label>Image</label>
-          <input type="file"  id = 'file' className="newUserInput" placeholder='AceHACK' /> 
+          <input type="file"  id = 'file'className="newUserInput" placeholder='AceHACK' /> 
         </div>
         <div className="newUserItem"> 
           <label>Full Name</label>
@@ -30,7 +30,7 @@ export const NewProduct = () => {
           <label>Address</label>
           <input type="text" className="newUserInput" placeholder='Lagos | Nigeria' /> 
         </div>
-        <div className="newUserItem"></div>
+        <div className="newUserItem">
           <label>Gender</label>
           <div className="newUserGender">
           <input type="radio" value='male' name='gender' id="male" /> 
