@@ -30,7 +30,7 @@ export const NewProduct = () => {
           <label>Address</label>
           <input type="text" className="newUserInput" placeholder='Lagos | Nigeria' /> 
         </div>
-        <div className="newUserItem">
+        <div className="newUserItem"></div>
           <label>Gender</label>
           <div className="newUserGender">
           <input type="radio" value='male' name='gender' id="male" /> 
