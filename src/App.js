@@ -8,6 +8,7 @@ import User from "./Pages/SingleUserPage/User";
 import NewUser from "./Pages/NewUser/NewUser";
 import ProductList from "./Pages/ProductList/ProductList";
 import { Product } from "./Pages/product/Product";
+import { NewProduct } from "./Pages/NewProduct/NewProduct";
 function App() {
   return (
     <div className="app">
@@ -31,8 +32,8 @@ function App() {
             <Route path="/Product/:productId">
               <Product />
             </Route>
-            <Route path="/NewProduct">
-              <NewUser />
+            <Route path="/newProduct">
+              <NewProduct />
             </Route>
             <Route exact path="/">
               <Home />

@@ -1,0 +1,73 @@
+.newProduct{
+  flex: 4;
+  padding: 20px;
+  margin: 20px;
+}
+
+.newUser__section {
+  flex: 4;
+  padding: 20px;
+}
+
+.newUserForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUserItem {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.newUserItem > label{
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.newUserItem > input{
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.newUserGender{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.newUserGender>label{
+ margin-right: 8px;
+}
+
+.newUserGender>input{
+  margin-right: 8px;
+ }
+
+ .newUserSelect {
+   height: 40px;
+   border-radius: 5px;
+   padding: 10px;
+ }
+
+ .newUserBttn{
+   width: 180px;
+   color: white;
+   background-color: teal;
+   border-radius: 5px;
+   padding: 10px;
+   border: none;
+   font-size: 16px;
+   font-weight: 600;
+   cursor: pointer;
+   margin-top: 20px;
+ }
