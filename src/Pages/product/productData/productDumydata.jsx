@@ -1,4 +1,3 @@
-import { v4 as vId } from "uuid";
 
 
 export  const productData = [
